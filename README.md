@@ -1,2 +1,3 @@
-# digital-circuit
-its a Simple Web Circuit Simulator
+# Digital Circuit
+
+Its a Simple Digital Circuit Simulator inspired by a Old Project i saw thats a Program

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Circuit</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+<body>
+    <h1>Digital Circuit Simulator</h1>
+    <div id="masterdiv">
+        <div id="powerout">
+            <button id="add-power" class="add" onclick="power('add')">Add Power</button>
+            <button id="reset-power" class="del" onclick="power('reset')">Reset Power</button>
+        </div>
+        <div id="circuit">
+            <button id="add-element" class="add" onclick="circuit('add')">Add Element</button>
+            <button id="reset-element" class="del" onclick="circuit('reset')">Reset Element</button>
+        </div>
+        <div id="showpower">
+            <button id="add-led" class="add" onclick="led('add')">Add LED</button>
+            <button id="reset-led" class="del" onclick="led('reset')">Reset LED</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="assets/javascript/index.js"></script>

@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+}
+
+#masterdiv {
+    display: flex;
+    width: 99vw;
+    height: 85vh;
+}
+
+#powerout {
+    border: 5px solid #000;
+    width: 15%;
+    height: 100%;
+}
+
+#circuit {
+    border: 5px solid #000;
+    width: 70%;
+    height: 100%;
+}
+
+#showpower {
+    border: 5px solid #000;
+    width: 15%;
+    height: 100%;
+}
+button {
+    width: 82px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0px;
+    margin: 5px;
+    padding: 5px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.add {
+    background-color: lime;
+    color: black;
+}
+.add:active {
+    background-color: green;
+    color: white;
+}
+.del {
+    background-color: red;
+    color: white;
+}
+.del:active {
+    background-color: darkred;
+    color: white;
+}
